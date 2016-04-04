@@ -1,2 +1,2 @@
 # ATMEL
-Some piece of Code for ATMEL specially int ATMEGA
+Some piece of Code for ATMEL specially in ATMEGA
