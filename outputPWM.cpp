@@ -76,12 +76,12 @@ int main(void)
 	ADC_Init();
 	PWM_Init();
 	int ADCReadValue;
-    while(1)
-    {
-        //TODO:: Please write your application code 
+	while(1)
+	{
+	//TODO:: Please write your application code 
 		ADCReadValue = ADC_Read(ADCPin);
 		PWM_Adjust(ADCReadValue);
 		_delay_ms(100);
-    }
+	}
 }
 
